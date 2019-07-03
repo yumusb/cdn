@@ -1,0 +1,1 @@
+javascript:function create() { var d = document, z = d.createElement('scr' + 'ipt'), b = d.body, l = d.location; try { if (!b) throw (0); if (!l) { alert('not found url!!'); return; } z.setAttribute('src', 'https://301.su/api2.php?url=' + encodeURIComponent(l)); b.appendChild(z)} catch (e) { alert('error!'); } } create();void(0);
